@@ -51,6 +51,7 @@ body{
     margin-top: 4px;
 }
 #submit{
+    height: 50px;
     background-color: rgb(61, 153, 184);
     color: rgb(205, 243, 228);
     border: none;
