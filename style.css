@@ -40,6 +40,7 @@ body{
     margin: 10px 0px;
 }
 .signup-body p label{
+    color: #433e3e;
     display: block;
     font-weight: bold;
 }
