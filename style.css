@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    line-height: 1.3;
+    width: 225vh;
+    height: 100vh;
+    font-weight: lighter;
+}
+.container{
+    border: 2px solid;
+    width: 350px;
+    height: 400px;
+    position: relative;
+    margin-top: 10%;
+    left: 40%;
+    padding: 60px;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    background-color: rgba(240, 248, 255, 0.722);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    border: none;
+    border-radius: 40px;
+    filter: blur(3px);
+}
+.child-container{
+    border: 2px solid;
+    width: 350px;
+    height: 400px;
+    position: relative;
+    margin-top: 10%;
+    left: 40%;
+    padding: 60px;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    background-color: rgba(240, 248, 255, 0.226);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    border: none;
+    border-radius: 40px;
+    background: transparent;
+    
+}
+header{
+    margin-bottom: 20px;
+    font-size: small;
+    text-align: center;
+}
+h2{
+    font-size: 35px;
+    text-align: center;
+}
+.button{
+    padding: 5px;
+    border-radius: 3px;
+    color: antiquewhite;
+    width: 100%;
+    background-color: #257eb5;
+    margin-top: 10px;
+    border: none;
+    font-size: 13px;
+    font-weight: lighter;
+    
+}
+button:hover{
+    background-color: #29536d;
+    cursor: pointer;
+}
+input{
+    width: 100%;
+}
+.bold{
+    font-size: 10px;
+    font-weight: 900;
+    padding: 1px;
+}
+footer{
+    margin-left: 15px;
+    margin-top: 24px;
+    font-size: 12px;
+    width: 1000px;
+    justify-content: center;
+}
+.bgimage{
+    filter: blur(3px);
+}
