@@ -10,25 +10,30 @@
     <div class="outer-box">
         <div class="inner-box">
             <header class="signup-header">
-                <h1>Sign</h1>
+                <?php
+                if($insert==true){
+                echo "<div class='as'>THANKS FOR SIGNING UP. CHALO AB NIKLO</div>";
+                }
+                ?>
+                <h1>Sign Up</h1>
                 <p>It Just Takes 30 Seconds</p>
             </header>
             <main class="signup-body">
-                <form action="#">
+                <form action="index.php" method="post">
                     <p>
                         <label for="name">Full Name</label>
-                        <input type="text" id="name" placeholder="Enter Your Name Here" required>
+                        <input type="text" name="name" id="name" placeholder="Enter Your Name Here" required>
                     </p>
                     <p>
                         <label for="email">Email</label>
-                        <input type="email" id="email" placeholder="abc@gmail.com" required>
-                    </p>
+                        <input type="email" name="email" id="email" placeholder="abc@gmail.com" required>
+                    </p> 
                     <p>
                         <label for="pass">Enter New Password</label>
-                        <input type="password" id="pass" placeholder="Enter atleast 8 Characters" required>
+                        <input type="password" name="password" id="pass" placeholder="Enter atleast 8 Characters" required>
                     </p>
                     <p>
-                        <input type="submit" id="submit" value="Create Account">
+                        <input type="submit" id="submit" value="Creat Account">
                     </p>
                 </form>
             </main>
